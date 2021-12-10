@@ -1,0 +1,666 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+.logo-text img {
+    width: 100%;
+}
+
+section {
+    height: 100vh;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase;
+    position: sticky;
+    margin: 0 auto;
+    color: #8c1940;
+    text-shadow: 3px 3px 5px black;
+}
+
+.h3_1 {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+}
+
+/* forside */
+/* scoll gif */
+.scroll {
+    top: 30%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.scroll p {
+    color: white;
+}
+
+.scroll div {
+    width: 5%;
+    margin: 0 auto;
+    margin: 5% auto 1% auto;
+}
+
+.scroll img {
+    width: 100%;
+}
+
+/* sektion 1 */
+/* images-slider */
+.section-1 {
+    background-color: black;
+}
+
+.slide-gallery {
+    width: 50%;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    align-items: center;
+}
+
+
+/* sektion 2 */
+.frihed-wrapper {
+    width: 80%;
+}
+
+.frihed-wrapper img {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.friheds-wrapper2 {
+    width: 80%;
+}
+
+.friheds-wrapper2 img {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    filter: grayscale(100%);
+}
+
+.grayscale {
+    filter: grayscale(0%) !important;
+}
+
+
+/* sektion 3 */
+/* overskrift */
+.h1 {
+    text-align: center;
+    color: white;
+    font-size: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-shadow: 0px 3px 0px #b2a98f,
+        0px 14px 10px rgba(0, 0, 0, 0.15),
+        0px 24px 2px rgba(0, 0, 0, 0.1),
+        0px 34px 30px rgba(0, 0, 0, 0.1);
+}
+
+.section-3 {
+    background: linear-gradient(black, #b3b490);
+    height: 50vh;
+    position: relative;
+}
+
+.bullets {
+    position: absolute;
+    top: 0;
+}
+
+.bullets img {
+    width: 100%;
+}
+
+/* sektion 4 */
+.section-4 {
+    overflow-x: hidden;
+    background: linear-gradient(#b3b490, #b3b490, black);
+}
+
+/* side- scroll */
+.side-scroll-list {
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    width: 180%;
+}
+
+.side-scroll-card {
+    margin: 0 1% 0 auto;
+}
+
+.film {
+    width: 100%;
+    cursor: pointer;
+    z-index: 5;
+}
+
+/* sektion 5 */
+/* slide in */
+.slide-in {
+    position: relative;
+    width: 100%;
+    color: white;
+    margin: 0 auto;
+}
+
+.slide-text {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.slide-text p {
+    font-size: 20px;
+}
+
+.slide-text h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px #000000
+}
+
+.slide-img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.slide-img img {
+    width: 100%;
+}
+
+/* slide 1 */
+.slide-in-headline1 {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+}
+
+/* slide 2 */
+.slide-in-headline2 {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+}
+
+/* slide 3 */
+.slide-in-headline3 {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+}
+
+/* space */
+.section-space {
+    height: 180vh;
+    background: linear-gradient(black, #161603);
+}
+
+/* sektion 6 */
+.section-6 {
+    background: linear-gradient(#161603, #b3b490);
+}
+
+.skydebane {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.skydebane video {
+    width: 100%;
+    margin: 5% auto 0 auto
+}
+
+iframe {
+    display: none;
+}
+
+/* space 2 */
+.section-space2 {
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    background: linear-gradient(#b3b490, black);
+}
+
+/* sektion 7 */
+.section-7 {
+    background: linear-gradient(black, #b3b490);
+    text-align: center;
+}
+
+.section-7 p {
+    color: white;
+    text-shadow: 3px 3px 5px #000000;
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+
+.dot-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.dot {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+h5 {
+    font-size: 4px;
+    background-color: rgb(42, 59, 42);
+    color: white;
+    width: 100%;
+    padding: 5px 1px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom: solid 1px rgb(17, 32, 3);
+    border-left: solid 1px rgb(17, 32, 3);
+    border-right: solid 1px rgb(17, 32, 3);
+}
+
+.dot img {
+    width: 100%;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top: solid 1px rgb(17, 32, 3);
+    border-left: solid 1px rgb(17, 32, 3);
+    border-right: solid 1px rgb(17, 32, 3);
+}
+
+.overlay {
+    transition: 0.5s;
+}
+
+.overlay img {
+    border: solid 1px white;
+    transform: scale(1.5);
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+.overlay h5 {
+    display: none;
+}
+
+/* sektion 8 */
+/* parallax */
+.fixet {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.one {
+    background: linear-gradient(#b3b490, black);
+}
+
+.two {
+    background: linear-gradient(black, #b3b490);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    height: 70vh;
+    padding: 0 0 5% 0;
+    width: 100%;
+}
+
+.two p {
+    font-weight: 900;
+    font-size: 20px;
+    color: #8c1940;
+    text-shadow: 3px 3px 5px grey;
+}
+
+.knap {
+    width: 10%;
+}
+
+.knap img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.knap img:hover {
+    transform: scale(1.2);
+}
+
+.four {
+    background-image: url(images/army.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15%;
+    padding: 10% 0 0 0;
+    text-align: center;
+}
+
+/* social media */
+.socialmedia {
+    display: flex;
+    width: 32%;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    gap: 70px;
+}
+
+.socialmedia img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.socialmedia img:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(2px 2px 10px rgb(180, 180, 180));
+}
+
+.four p {
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px 5px #000000;
+    text-transform: uppercase;
+}
+
+/* footer */
+footer {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    width: 7%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+/* mobil */
+@media only screen and (max-width: 799px) {
+
+    section {
+        overflow-x: hidden !important;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin: 0 auto 10px auto;
+    }
+
+    .h3_1 {
+        position: absolute;
+        top: 50%;
+    }
+
+    /* scoll gif */
+    .scroll {
+        display: none;
+    }
+
+    /* sektion 1 */
+    /* images-slider */
+    .slide-gallery {
+        width: 100%;
+    }
+
+    .slide {
+        width: 100%;
+    }
+
+    /* sektion 2 */
+    .section-2 {
+        height: 80vh;
+    }
+
+    /* sektion 3 */
+    .section-3 {
+        height: 30vh;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    /* overskrift */
+    .h1 {
+        font-size: 30px;
+        margin: 12% auto;
+    }
+
+    .bullets {
+        position: absolute;
+        top: 0;
+    }
+
+    /* sektion 4 */
+    /* side- scroll */
+    .side-scroll-list {
+        flex-direction: column;
+        height: 300vh;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .side-scroll-card:nth-child(8),
+    .side-scroll-card:nth-child(7),
+    .side-scroll-card:nth-child(6),
+    .side-scroll-card:nth-child(5) {
+        display: none;
+    }
+
+    .side-scroll-card {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    /* sektion 5 */
+    .section-5 {
+        height: 130vh;
+    }
+
+    /* slide in */
+    .slide-in {
+        position: relative;
+        width: 100%;
+        color: white;
+        margin: 0 auto;
+    }
+
+    .slide-text {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .slide-text p {
+        font-size: 15px;
+    }
+
+    .slide-text h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .slide-img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* slide 1 */
+    .slide-in-headline1 {
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        left: 0;
+        right: 0;
+    }
+
+
+    /* slide 2 */
+    .slide-in-headline2 {
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        left: 0;
+        right: 0;
+    }
+
+    /* slide 3 */
+    .slide-in-headline3 {
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        left: 0;
+        right: 0;
+    }
+
+    /* mellem sektion */
+    .section-space {
+        height: 20vh;
+    }
+
+    /* sektion 6 */
+    .section-6 {
+        height: 80vh;
+    }
+
+    /* video */
+    iframe {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .skydebane {
+        display: none;
+    }
+
+    /* space 2 */
+    .section-space2 {
+        height: 10vh;
+        display: flex;
+        align-items: flex-start;
+        background: linear-gradient(#b3b490, #b3b490);
+    }
+
+    /* sektion 7 */
+    .section-7 {
+        background: linear-gradient(#b3b490, #b3b490);
+        text-align: center;
+        height: 100vh;
+    }
+
+    .section-7 p {
+        color: white;
+        text-shadow: 3px 3px 5px #000000;
+        text-transform: uppercase;
+    }
+
+    .dot-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .dot {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 45%;
+        top: 20%;
+    }
+
+    h5 {
+        font-size: 5px;
+        background-color: rgb(42, 59, 42);
+        color: white;
+        width: 100%;
+        padding: 2px 0;
+    }
+
+    .dot img {
+        width: 100%;
+    }
+
+    /* sektion 8 */
+    /* parallax */
+    .one {
+        display: none;
+    }
+
+    .two {
+        background: linear-gradient(#b3b490, #676856);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin: 0 auto;
+        height: 100vh;
+        padding: 0 0 5% 0;
+        width: 100%;
+    }
+
+    .knap {
+        width: 70%;
+    }
+
+    /* social media */
+    .socialmedia {
+        width: 100%;
+        gap: 30px;
+        padding: 15px;
+    }
+
+    /* footer */
+    footer {
+        width: 20%;
+    }
+
+}
