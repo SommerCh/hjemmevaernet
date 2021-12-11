@@ -372,7 +372,7 @@ h5 {
 }
 
 .four {
-    background-image: url(images/army.jpg);
+    background-image: url(images/army.webp);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -384,7 +384,7 @@ h5 {
 /* social media */
 .socialmedia {
     display: flex;
-    width: 32%;
+    width: 45%;
     text-align: center;
     justify-content: space-evenly;
     margin: 0 auto;
@@ -656,6 +656,10 @@ footer {
         width: 100%;
         gap: 30px;
         padding: 15px;
+    }
+
+    .four p {
+        font-size: 20px;
     }
 
     /* footer */
